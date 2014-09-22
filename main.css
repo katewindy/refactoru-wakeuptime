@@ -1,0 +1,84 @@
+html {
+	box-sizing: border-box;
+
+}
+
+*, *:before, *:after {
+	box-sizing: inherit;
+}
+
+.container {
+	width: 600px;
+	margin: auto;
+	position:relative;
+	top: 50%;
+	transform: translateY(50%);
+}
+
+.outer-shell {
+	height: 100%;
+	width: 100%;
+	background: #3B3A3A;
+	padding: 30px 50px;
+	border-radius: 15px;
+
+}
+
+.inner-shell {
+	height: 250px;
+	width: 100%;
+	background: #727272;
+	border-radius: 15px;
+	padding: 10px;
+
+}
+
+.clockscreen {
+	height: 160px;
+	width:410px;
+	background: #673E3E;
+	border-radius: 15px;
+	display: inline-block;
+	padding: 10px;
+}
+
+.leftlabels {
+	display: inline-block;
+	width: 45px;
+
+}
+.pmauto {
+	text-align: right;
+	padding:5px;
+	position: relative;
+  	top: 50%;
+  	transform: translateY(-50%);
+  	color: #fff;
+  	font-size: 12px;
+}
+
+.radiolabel {
+	width: 290px;
+	margin: auto;
+	letter-spacing: 3px;
+	color: #fff;
+
+}
+.ampm{
+	display: inline-block;
+	width: 10px;
+	height: 10px;
+	border-radius: 100%;
+	background: #E33131;
+	padding-left: 10px;
+	position: absolute;
+	top: 142px;
+}
+.clocktext{
+	display: inline-block;
+	color: #E33131;
+	font-size: 9em;
+	position: absolute;
+	top:37px;
+	left:130px;
+}
